@@ -1,0 +1,120 @@
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+header {
+    padding: 25px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #d4a373;
+    font-size: 28px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+.hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8%;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    color: #d4a373;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 500px;
+    line-height: 1.8;
+    color: #cccccc;
+}
+
+button {
+    width: 150px;
+    padding: 12px;
+    margin-top: 25px;
+    background-color: #d4a373;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.about {
+    Padding: 80px 8%;
+    Background-color: #1a1a1a;
+}
+
+.about h2 {
+    Font-size: 35px;
+    Color: #d4a373;
+    Margin-bottom: 20px;
+}
+
+.about p {
+    Max-width: 700px;
+    Line-height: 1.8;
+    Color: #cccccc;
+}
+
+.skills {
+    Padding: 80px 8%;
+    Background-color: #0f0f0f;
+}
+
+.skills h2 {
+    Color: #d4a373;
+    Font-size: 35px;
+    Margin-bottom: 30px;
+}
+
+.skill-container {
+    Display: flex;
+    Flex-wrap: wrap;
+    Gap: 20px;
+}
+
+.skill-box {
+    Background-color: #1a1a1a;
+    Padding: 25px;
+    Width: 220px;
+    Border-radius: 10px;
+}
+
+.skill-box h3 {
+    Color: #d4a373;
+    Margin-bottom: 15px;
+}
+
+.skill-box p {
+    Color: #cccccc;
+    Line-height: 1.6;
+}
+
